@@ -46,7 +46,7 @@
     bottom: -0.9375;
     transition: all 0.08s ease;
   }
-  .cont.show-controls .wrapper {
+  .container.show-controls .wrapper {
     opacity: 1;
     bottom: 0;
     transition: all 0.13s ease;
