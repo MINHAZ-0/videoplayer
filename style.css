@@ -14,11 +14,8 @@
     --grey-color : rgb(128, 128, 128);
   }
 /*-----------------  STYLING  -----------------*/
-  body {
-   /* min-height: 100vh;
-    background: var(--background_color);*/
-  }
-  body, .container, .video-controls, .video-timer, .options {
+  
+   .container, .video-controls, .video-timer, .options {
     display: flex;
     align-items: center;
     justify-content: center;
