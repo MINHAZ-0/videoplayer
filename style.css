@@ -15,12 +15,12 @@
   }
 /*-----------------  STYLING  -----------------*/
   
-   .container, .video-controls, .video-timer, .options {
+   .cont, .video-controls, .video-timer, .options {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .container {
+  .cont {
     width: 98%;
     user-select: none;
     overflow: hidden;
@@ -31,7 +31,7 @@
     position: relative;
     box-shadow: 0 0.625em 1.25em rgba(0, 0, 0, 0.1);
   }
-  .container.fullscreen {
+  .cont.fullscreen {
     max-width: 100%;
     width: 100%;
     height: 100vh;
@@ -46,7 +46,7 @@
     bottom: -0.9375;
     transition: all 0.08s ease;
   }
-  .container.show-controls .wrapper {
+  .cont.show-controls .wrapper {
     opacity: 1;
     bottom: 0;
     transition: all 0.13s ease;
@@ -198,7 +198,7 @@
   color: var(--white_color);
   background: var(--orange_color);
   }
-  .container video {
+  .cont video {
   width: 100%;
   }
   label {
